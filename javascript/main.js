@@ -15,8 +15,8 @@ window.addEventListener('scroll',()=>{
     var c=1;
     var d =0.4;
     if(w<h){
-        c=2.5
-        d=1.5
+        c=2
+        d=1
     }
     if(window.scrollY>window.screen.height*c){
         pricing_heading.style.opacity = 1
