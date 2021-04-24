@@ -9,6 +9,8 @@ var bar2 = document.getElementById('bar2')
 var bar3 = document.getElementById('bar3')
 
 
+
+
 window.addEventListener('scroll',()=>{
     if(window.scrollY>50){
         navbar.style.backgroundColor = 'white'

@@ -1,13 +1,14 @@
 .pricing{
     background-image:linear-gradient(to right, rgb(248, 224, 103), rgb(231, 205, 87));
-
+    padding-bottom:30px ;
 }
 
 .pricing_wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin:20px  auto;
     width: fit-content;
+    transition: 0.5s;
 }
 
 .price_card{
@@ -47,6 +48,7 @@
     position: relative;
     height: 200px;
     width: 100%;
+    transition: 0.5s;
 }
 
 .price_head_back{
