@@ -16,7 +16,6 @@
 
 .intro_text .heading1{
     font-size:80px ;
-    font-weight: 900;
     margin: 20px 0px 0 30px;
     position: absolute;
     
@@ -25,7 +24,6 @@
 
 .intro_text .heading2{
     font-size:80px ;
-    font-weight: 900;
     margin: 20px 0px 0 30px;
     position: absolute;
     
@@ -44,7 +42,10 @@
     background-size: contain;
 }
 
-
+.b1{
+    position: absolute;
+    bottom: 0;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -57,14 +58,14 @@
     }
 
     .intro_animation{
-        top: 60%;
+        top: 55%;
         
         right: 5%;
     }
 
 
     .landing_page{
-        height: 200%;
+        height: 180%;
         overflow-x: hidden;
     }
   }

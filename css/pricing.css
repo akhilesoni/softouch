@@ -1,0 +1,104 @@
+.pricing{
+    background-image:linear-gradient(to right, rgb(248, 224, 103), rgb(231, 205, 87));
+
+}
+
+.pricing_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: fit-content;
+}
+
+.price_card{
+    background-color: white;
+    margin: 20px 20px;
+    transition: 0.2s;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.price_card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.171);
+}
+
+.price_card .card_head{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price_card .card_price{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.price_card .card_time{
+    font-weight: 999;
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+}
+.price_card .list{
+    text-align: left;
+}
+
+
+.pricing_heading{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.price_head_back{
+    position: absolute;
+width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    top: 50px;
+}
+
+.pricing_heading_text{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 50%;
+    margin-left: -80px;
+    top: 10px;
+}
+
+
+.red{
+    color: green;
+    font-weight: bold;
+}
+
+.green{
+    color: red;
+    font-weight: bold;
+}
+.price_card a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.price_card .card_button{
+    color: blue;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.price_card .card_button:hover{
+    background-color: blue;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .price_card{
+        width: 78%;
+        margin: 10px auto;
+    }
+}

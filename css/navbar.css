@@ -18,6 +18,9 @@
 .navbar .heading h3{
     margin: 0;
     padding: 0;
+    font-size: 25px;
+    color: rgb(122, 85, 16);
+    font-family: 'Aldrich';
 }
 
 .navbar .nav-menu{
@@ -30,7 +33,6 @@
     text-decoration: none;
     padding: 10px;
     color: black;
-    font-weight: 999;
     border-radius: 20px;
 }
 

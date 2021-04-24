@@ -167,6 +167,27 @@
     opacity: 0;
 }
 
+
+.cr1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image:linear-gradient(to right,rgb(187, 121, 173),rgb(129, 35, 133)) ;
+    border-radius: 50%;
+}
+
+.cr2{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background-image:linear-gradient(to right,rgb(199, 142, 109),rgb(230, 72, 98)) ;
+    border-radius: 50%;
+    top: 70%;
+    left: 70%;
+}
+
+
+
 .m{
     transition: 0.3s;
     opacity: 0;
@@ -213,4 +234,37 @@
     left: 40%;
     top: 50%;
     background-image:linear-gradient(to right,rgb(123, 121, 187),rgb(58, 49, 133)) ;
+}
+
+.invisible{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -220px;
+    overflow: hidden;
+}
+
+.baloon{
+    height: 400px;
+    width: 100px;
+    background-image:linear-gradient(to right,rgb(255, 255, 255),rgb(255, 255, 255)) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+
+}
+
+.l1{
+    width: 80%;
+    height: 3%;
+    margin: 10%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .box1{
+        display: none;
+    }
 }
