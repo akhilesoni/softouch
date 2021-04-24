@@ -164,4 +164,53 @@
 
 .c{
     transition: 0.3s;
+    opacity: 0;
+}
+
+.m{
+    transition: 0.3s;
+    opacity: 0;
+}
+.m1{
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    left: 20%;
+    transform: skewY(-20deg);
+}
+.m2{
+    width: 35%;
+    height: 35%;
+    left: 18%;
+    position: absolute;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    transform: skewY(-20deg);
+}
+
+.girl{
+    height: 70%;
+    position: absolute;
+    left: 40%;
+}
+
+.m3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 60%;
+    background-image:linear-gradient(to right,rgb(123, 121, 187),rgb(58, 49, 133)) ;
+}
+
+.m4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: rotateZ(45deg);
+    left: 40%;
+    top: 50%;
+    background-image:linear-gradient(to right,rgb(123, 121, 187),rgb(58, 49, 133)) ;
 }

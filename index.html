@@ -51,56 +51,77 @@
 
         </div>
         <div class="intro_text">
-            <p class="heading1 rellax" data-rellax-speed="4">
+            <p class="heading heading1 " >
                 we're a digital <br>
                 agency
             </p>
+            <p class=" heading heading2" >
+                you think, we create 
+            </p>
         </div>
         <div class="intro_animation">
-      
-            <div class="c card2"></div>
-           <div class="c card1"></div>
-           <div class="c card3"></div>
-           <div class="c card7"></div>
-           <div class="c card5"></div>
+            <div class="animation1">
+                <div class="c card2"></div>
+                <div class="c card1"></div>
+                <div class="c card3"></div>
+                <div class="c card7"></div>
+                <div class="c card5"></div>
+    
+    
+                <div class="c card6"></div>
+                <div class="c card9"></div>
+    
+                <div class="c card8"></div>
+                
+                <div class="c card4"></div>
+    
+                <div class="c card12"></div>
+                <div class="c card13"></div>
+    
+                <div class="c card11"></div>
+    
+                <div class="c card10"></div>
+    
+                <div class="c card14"></div>
+                <div class="c card15"></div>
+            </div>
+            <div class="animation2">
+                <div class="m m4"></div>
 
+                <div class="m m3"></div>
+                <div class="m m2"></div>
+                <div class="m m1"></div>
+                <img class="m girl" src="css/images/girl.png" alt="">
 
-           <div class="c card6"></div>
-           <div class="c card9"></div>
-
-            <div class="c card8"></div>
-            
-           <div class="c card4"></div>
-
-           <div class="c card12"></div>
-           <div class="c card13"></div>
-
-           <div class="c card11"></div>
-
-           <div class="c card10"></div>
-
-           <div class="c card14"></div>
-           <div class="c card15"></div>
-
+            </div>
         </div>
     </div>
     <div class="product_page">
+        <p class="product_page_heading">Services</p>
+        <div class="product_wrapper">
+            <div class="product app_product">
+                <img class="icon app_icon" src="css/images/userinterface.png" alt="">
+                <p class="product_heading">Apps for business</p>
+            </div>
+            <div class="product web_product">
+                <img class="icon web_icon" src="css/images/website.png" alt="">
+                <p class="product_heading">website for portfolios</p>
 
+            </div>
+            <div class="product graphic_product">
+                <img class="icon graphic_icon" src="css/images/vector.png" alt="">
+                <p class="product_heading">graphic or poster for business</p>
+
+            </div>
+
+        </div>
     </div>
 
     <script src="javascript/main.js"></script>
     <script src="javascript/navbar.js"></script>
 
     <script>
-        anime({
-            targets:'.c',
-            opacity:[0,1],
-            duration:5000,
-            delay:anime.stagger(100),
-            autoplay:true,
-            loop:false,
-
-        })
+       
 
         anime({
             targets:'.intro_text,.nav_menu',
@@ -122,6 +143,73 @@
             loop:false,
 
         })
+
+        anime({
+            targets:'.m',
+            opacity:[0,0,0,0,0,1,1,1,1,1],
+            duration:10000,
+            autoplay:true,
+            loop:true,
+            direction:'alternate',
+            easing:'linear',
+
+        })
+
+        anime({
+            targets:'.heading1',
+            opacity:[0,0,0,0,0,1,1,1,1,1],
+            duration:10000,
+            autoplay:true,
+            loop:true,
+            direction:'alternate',
+            easing:'linear',
+
+        })
+        anime({
+            targets:'.c',
+            opacity:[1,1,1,1,1,0,0,0,0,0],
+            duration:10000,
+            autoplay:true,
+            easing:'linear',
+            loop:true,
+            direction:'alternate',
+
+        })
+
+        anime({
+            targets:'.heading2',
+            opacity:[1,1,1,1,1,0,0,0,0,0],
+            duration:10000,
+            autoplay:true,
+            easing:'linear',
+            loop:true,
+            direction:'alternate',
+
+        })
+
+        anime({
+            targets:'.m4',
+            rotateZ:'1turn',
+            duration:10000,
+            autoplay:true,
+            easing:'linear',
+            loop:true,
+            direction:'alternate',
+
+        })
+
+        anime({
+            targets:'.card14',
+            backgroundColor:['white','black'],
+            duration:1000,
+            autoplay:true,
+            easing:'linear',
+            loop:true,
+            direction:'alternate',
+
+        })
+        
+
         
     </script>
 </body>
