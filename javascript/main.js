@@ -15,7 +15,7 @@ window.addEventListener('scroll',()=>{
     var c=1;
     var d =0.4;
     if(w<h){
-        c=3
+        c=2.5
         d=1.5
     }
     if(window.scrollY>window.screen.height*c){
