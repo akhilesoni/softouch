@@ -13,7 +13,7 @@ window.addEventListener('scroll',()=>{
     var h = window.screen.height;
 
     var c=1;
-    var d =0.3;
+    var d =0.4;
     if(w<h){
         c=3
         d=1.5
