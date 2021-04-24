@@ -34,12 +34,21 @@
     top: 30%;
     right: 30px;
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 380px;
     border-radius: 10px;
-    background-image: url(images/animation_background.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.main_svg{
+    height: 100%;
+    position: absolute;
+}
+
+.main_back{
+    position: absolute;
+    height: 400px;
 }
 
 .b1{
