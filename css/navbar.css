@@ -4,7 +4,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    color: white;
     transition: 0.3s;
     z-index: 999;
 }
@@ -30,7 +29,8 @@
 .navbar .nav-menu a{
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: black;
+    font-weight: 999;
     border-radius: 20px;
 }
 
@@ -41,7 +41,7 @@
 .menu_button .bar{
     width: 20px;
     height: 2px;
-    background-color: white;
+    background-color: black;
     margin: 5px;
 }
 

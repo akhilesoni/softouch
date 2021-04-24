@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background-image:linear-gradient(to right, rgb(236, 206, 35), rgb(221, 182, 10));
+    background-image:linear-gradient(to right, rgb(247, 236, 178), rgb(245, 222, 118));
 
 }
 
@@ -28,86 +28,15 @@
     width: 400px;
     height: 300px;
     border-radius: 10px;
-}
-
-.card1{
-    width: 35%;
-    height: 19%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    border-radius: 5px;
-    background-color: rgb(233, 233, 233);
-}
-.card2{
-    width: 35%;
-    height: 19%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 52%;
-    left: 30%;
-    border-radius: 5px;
-    background-color: rgb(175, 175, 175);
-}
-
-.card3{
-    width: 31%;
-    height: 17%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 51%;
-    left: 32%;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-image: url(images/animation_background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
-.card4{
-    width: 7%;
-    height: 18%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 50%;
-    left: 37%;
-    border-radius: 5px;
-    background-color: rgb(240, 240, 240);
-}
-
-.card7{
-    width: 7%;
-    height: 18%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 57%;
-    left: 37%;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.199);
-}
-
-
-.card5{
-    width: 5%;
-    height: 15%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 44%;
-    left: 52%;
-    border-radius: 5px;
-    background-color: rgb(216, 172, 25);
-}
-.card6{
-    width: 5%;
-    height: 15%;
-    transform: skew(60deg,-40deg);
-    position: absolute;
-    top: 51%;
-    left: 46%;
-    border-radius: 5px;
-    background-color: rgb(236, 206, 106);
-}
 
 @media only screen and (max-width: 600px) {
+
     .intro_text {
         top: 10%;
     }
@@ -118,13 +47,13 @@
 
     .intro_animation{
         top: 60%;
-        width: 90%;
-        height: 20%;
+        
         right: 5%;
     }
 
 
     .landing_page{
         height: 200%;
+        overflow-x: hidden;
     }
   }
