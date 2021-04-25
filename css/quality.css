@@ -6,6 +6,12 @@
 
 .quality_icon{
     width: 70px;
+    transition: 0.3s;
+}
+.quality_card:hover .quality_icon{
+
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.356));   /* left */
+    transform: scale(1.05);
 }
 
 .quality_page{
