@@ -10,16 +10,20 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/landing.css">
     <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/box.css">
+
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/quality.css">
+    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
 
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.js" integrity="sha512-qk0XupXlge1h9I63+bC7K8850xgWnUjTgSNkfLnsqc7dWdx4031UbKjKs2cuRxsNXymkSjyzSCiryVouU74zkg==" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
@@ -30,10 +34,10 @@
     <div id="navbar" class="navbar">
         <div class="heading"><h3>Softouch</h2></div>
         <div class="nav-menu">
-            <a id="home_option" href="">Home</a>
-            <a id="pricing_option" href="">Pricing</a>
+            <a id="home_option" href="#home">Home</a>
+            <a id="pricing_option" href="#pricing">Pricing</a>
             <a id="about_option" href="">About</a>
-            <a id="contact_option" href="">Contact</a>
+            <a id="contact_option" href="#contact">Contact</a>
         </div>
         <div class="menu_button">
             <div id="bar1" class="bar"></div>
@@ -42,7 +46,7 @@
 
         </div>
     </div>
-    <div class="landing_page">
+    <div id="home" class="landing_page">
         <img class="b1" src="css/images/b1.png" alt="">
        
         <div class="intro_text">
@@ -85,7 +89,7 @@
 
 
     </div>
-    <div class="pricing">
+    <div id="pricing" class="pricing">
         <div id="pricing_heading" class="pricing_heading">
             <img class="price_head_back" src="css/images/ribben.png" alt="">
             <p class="pricing_heading_text">Pricing</p>
@@ -152,26 +156,90 @@
             <div class="quality_card">
                 <img class="quality_icon" src="css/images/career.png" alt="">
                 <p class="quality_card_heading">We Are Professional</p>
-                <p>we are professional we handle every problem professionally</p>
+                <p class="quality_card_detail">we are professional we handle every problem professionally</p>
             </div>
             <div class="quality_card">
                 <img class="quality_icon" src="css/images/telemarketer.png" alt="">
                 <p class="quality_card_heading">Quick Support</p>
-                <p>we have great quick support team for your questions</p>
+                <p class="quality_card_detail">we have great quick support team for your questions</p>
             </div>
             <div class="quality_card">
                 <img class="quality_icon" src="css/images/salary.png" alt="">
                 <p class="quality_card_heading">Low Price Guarantee</p>
-                <p>we assure you for best price in deal</p>
+                <p class="quality_card_detail">we assure you for best price in deal</p>
             </div>
             <div class="quality_card">
                 <img class="quality_icon" src="css/images/handshake.png" alt="">
                 <p class="quality_card_heading">Friendly Servies</p>
-                <p>our emviroment is more Friendly than your own friends</p>
+                <p class="quality_card_detail">our emviroment is more Friendly than your own friends</p>
             </div>
         </div>
     </div>
+    <div class="customer">
+        <p class="customer_heading">Trusted by over 20+ great businesses </p>
+        <div class="logo_wrapper">
+            <img class="logo" src="css/images/ghargrocerylogo.png" alt="">
+            <img class="logo" src="css/images/main_dsc_logo.png" alt="">
+            <img class="logo" src="css/images/shristibakerylogo.png" alt="">
 
+        </div>
+        <p class="customer_detail">
+            Get ready to recieve all the benefits of online reputaion and recognition   
+        </p>
+    </div>
+    <div id="contact" class="contact">
+        <img class="mail" src="css/images/mail.png" alt="">
+        <img class="plane" src="css/images/plane.png" alt="">
+        <div class="contact_wrapper">
+            <p class="contact_text">Feel free to contact us</p>
+
+            <div class="button_wrapper">  <a class="mail_button" href="">Mail Us</a>
+                <a class="linkedin_button" href="">Linkedin</a></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_wrapper">
+            <div class="social">
+                <p class="footer_list_head">Social Links</p>
+
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-linkedin"></a>
+                <a href="" class="fa fa-whatsapp"></a>
+            </div>
+            <div class="navigation">
+                <p class="footer_list_head">Navigation</p>
+                <a href="#home" class="navigation_item">Home</a>
+                <a href="#contact" class="navigation_item">Contact</a>
+                <a href="#pricing" class="navigation_item">Pricing</a>
+                <a href="" class="navigation_item">About</a>
+
+            </div>
+            <div class="services">
+                <p class="footer_list_head">Services</p>
+                <a href="" class="services_item">Web design</a>
+                <a href="" class="services_item">App development</a>
+                <a href="" class="services_item">Web development</a>
+                <a href="" class="services_item">graphic design</a>
+
+            </div>
+
+            <div class="address">
+                <p class="footer_list_head">Contact Us</p>
+                <p class="address_item">Email:</p>
+                <p class="address_item">soniakhilesh101@gmail.com</p>
+                <p class="address_item">Phone no.:</p>
+                <p class="address_item">+91 883435987</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="snake_footer">
+        <p>	&#169; 2021 Softouch. All right reserverd</p>
+        <p><i class="material-icons">place</i>
+            Bhilai, India </p>
+    </div>
     <script src="javascript/main.js"></script>
     <script src="javascript/navbar.js"></script>
 
@@ -189,7 +257,7 @@
         })
 
         anime({
-            targets:'.box1,.box2,.heading',
+            targets:'.heading',
             translateX:[20,0],
             opacity:[0,1],
             duration:2000,
@@ -199,30 +267,8 @@
 
         })
 
-        anime({
-            targets:'.m',
-            opacity:[0,0,0,0,0,1,1,1,1,1],
-            duration:10000,
-            autoplay:true,
-            loop:true,
-            direction:'alternate',
-            easing:'linear',
-
-        })
-
-        anime({
-            targets:'.box1',
-            translateX:[0,29,12,32,12,14,12,17,21,41],
-            translateY:[0,17,21,41,12,14,32,12,14,41],
-
-            duration:10000,
-            autoplay:true,
-            loop:true,
-            direction:'alternate',
-            easing:'linear',
-
-        })
-
+     
+      
         anime({
             targets:'.intro_animation',
             translateX:[0,9,2,3,2,4,2,7,2,4],
@@ -236,17 +282,7 @@
 
         })
 
-        anime({
-            targets:'.r',
-            rotate:'1turn',
-
-            duration:1000,
-            autoplay:true,
-            loop:true,
-            direction:'alternate',
-            easing:'linear',
-
-        })
+      
 
         anime({
             targets:'.heading1',
@@ -258,16 +294,7 @@
             easing:'linear',
 
         })
-        anime({
-            targets:'.c',
-            opacity:[1,1,1,1,1,0,0,0,0,0],
-            duration:10000,
-            autoplay:true,
-            easing:'linear',
-            loop:true,
-            direction:'alternate',
-
-        })
+      
 
         anime({
             targets:'.heading2',
@@ -280,28 +307,9 @@
 
         })
 
-        anime({
-            targets:'.m4',
-            rotateZ:'1turn',
-            duration:10000,
-            autoplay:true,
-            easing:'linear',
-            loop:true,
-            direction:'alternate',
+    
 
-        })
-
-        anime({
-            targets:'.card14',
-            backgroundColor:['white','black'],
-            duration:1000,
-            autoplay:true,
-            easing:'linear',
-            loop:true,
-            direction:'alternate',
-
-        })
-        
+       
 
         
     </script>

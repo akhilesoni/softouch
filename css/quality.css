@@ -8,10 +8,19 @@
     width: 70px;
 }
 
+.quality_page{
+    padding: 40px 0 40px 0;
+}
+
+.quality_card .quality_card_detail{
+    font-size: 13px;
+}
+
 .quality_card_heading{
     font-size: 20px;
     margin-bottom: 0;
 }
+
 
 .quality_card{
     width: 300px;
