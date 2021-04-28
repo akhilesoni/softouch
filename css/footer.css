@@ -10,6 +10,7 @@
     text-decoration: none;
     display: block;
     padding: 5px 0;
+    font-size: 15px;
 }
 
 .footer a:hover{
@@ -27,7 +28,7 @@
 }
 
 .footer_list_head{
-    font-size: 30px;
+    font-size:25px;
 }
 .social{
     margin: auto;
@@ -49,6 +50,11 @@
 }
 .snake_footer p{
     margin: auto;
+    font-size: 10px;
+}
+
+.snake_footer i{
+    font-size: 10px;
 }
 
 @media only screen and (max-width: 600px) {

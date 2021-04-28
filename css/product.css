@@ -1,5 +1,6 @@
 .product_page{
     width: 100%;
+    margin-top: 150px;
     position: relative;
 }
 
@@ -10,11 +11,16 @@
 .product_wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 50px auto;
     transition: 0.5s;
 
 }
 
+.below_product_heading{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 .product{
     width: 200px;
     margin: 20px auto;
@@ -29,6 +35,7 @@
 .product_heading{
     font-size: 20px;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .product_detail{

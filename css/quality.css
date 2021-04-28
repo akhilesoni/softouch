@@ -1,7 +1,7 @@
 .quality_wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .quality_icon{
@@ -10,12 +10,11 @@
 }
 .quality_card:hover .quality_icon{
 
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.356));   /* left */
     transform: scale(1.05);
 }
 
 .quality_page{
-    padding: 40px 0 40px 0;
+    padding: 90px 0 90px 0;
 }
 
 .quality_card .quality_card_detail{
@@ -25,6 +24,7 @@
 .quality_card_heading{
     font-size: 20px;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 

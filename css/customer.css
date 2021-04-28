@@ -1,7 +1,6 @@
 .customer{
-    background-color: rgb(230, 238, 255);
-    padding: 30px 0 40px 0;
-    padding: 10px 20px;
+    background-color: rgb(247, 249, 255);
+    padding: 90px 10px 90px 10px;
 }
 
 .logo_wrapper{
@@ -11,10 +10,15 @@
     margin: auto;
 }
 
-.logo{
-    height: 50px;
-    margin: 20px 40px;
+.brand_logo{
+    background-color: rgb(233, 233, 255);
+    color: rgb(68, 68, 68);
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Audiowide';
 }
+
 
 .customer_heading{
     font-size:40px ;
@@ -27,6 +31,7 @@
     text-align: center;
     padding: 0 0 30px 0;
     margin-bottom: 0;
+    margin-top: 40px;
 }
 
 
@@ -36,7 +41,7 @@
     margin: 0;
     overflow: hidden;
     min-height: 200px;
-    padding:20px 20px 40px 20px;
+    padding:60px 20px 60px 20px;
 }
 .contact_text{
     font-size: 40px;
@@ -79,7 +84,7 @@
     position: absolute;
     width: 400px;
     right: 10%;
-    bottom: -60%;
+    bottom: -40%;
     margin: 0;
 }
 

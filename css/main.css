@@ -24,3 +24,22 @@ body{
     left: 50%;
     margin-left: -50px;
 }
+
+.whatsapp_float_button{
+    position: fixed;
+    bottom: 20px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    right: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: 	rgb(37,211,102);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.151);
+}
+
+.whatsapp_float_button a{
+    color: white;
+    padding: 20px;
+    font-size:30px ;
+}

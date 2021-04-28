@@ -20,6 +20,8 @@
 
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -41,7 +43,7 @@
             <a class="option" href="">About</a>
             <a class="option" href="#contact">Contact</a>
         </div>
-        <div class="float_menu_button">
+        <div id="float_menu_button" class="float_menu_button">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
@@ -55,9 +57,9 @@
         <p class="below_heading">
             Bring your businesses and ideas on the network 
         </p> 
-        <p class="contact_button">
-            CONTACT US
-        </p>
+        <div class="contact_button">
+            <a href="mailto:soniakhilesh101@gmail.com">CONTACT US</a>
+        </div>
         <div class="animation">
             <div class="subject">
                 <div class="subject_head">
@@ -76,9 +78,10 @@
     </div>
     <div class="product_page">
         <p id="product_page_heading" class="product_page_heading">Services</p>
+        <p class="below_product_heading">What we do</p>
         <div id="product_wrapper" class="product_wrapper">
             <div class="product app_product">
-                <img class="icon app_icon" src="css/images/userinterface.png" alt="">
+                <img class="icon app_icon" src="css/images/play.png" alt="">
                 <p class="product_heading">Apps</p>
                 <p class="product_detail">build an app for your business</p>
             </div>
@@ -189,9 +192,11 @@
     <div class="customer">
         <p class="customer_heading">Trusted by over 20+ great businesses </p>
         <div class="logo_wrapper">
-            <img class="logo" src="css/images/ghargrocerylogo.png" alt="">
-            <img class="logo" src="css/images/main_dsc_logo.png" alt="">
-            <img class="logo" src="css/images/shristibakerylogo.png" alt="">
+            
+            <p class="brand_logo">GharGrocery</p>
+            <p class="brand_logo">DSC SSTC</p>
+            <p class="brand_logo">SHRISTI BAKERY</p>
+
 
         </div>
         <p class="customer_detail">
@@ -214,10 +219,10 @@
             <div class="social">
                 <p class="footer_list_head">Social Links</p>
 
-                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-github"></a>
                 <a href="" class="fa fa-instagram"></a>
                 <a href="" class="fa fa-linkedin"></a>
-                <a href="" class="fa fa-whatsapp"></a>
+                <a href="https://wa.me/8839435987" class="fa fa-whatsapp"></a>
             </div>
             <div class="navigation">
                 <p class="footer_list_head">Navigation</p>
@@ -250,6 +255,10 @@
         <p>	&#169; 2021 Softouch. All right reserverd</p>
         <p><i class="material-icons">place</i>
             Bhilai, India </p>
+    </div>
+
+    <div class="whatsapp_float_button">
+        <a class="fa fa-whatsapp"></a>
     </div>
 
     <div class="cover" id="cover"></div>
@@ -292,7 +301,17 @@
 
         })
 
-            
+        anime({
+            targets:'.heading',
+            opacity:[0,1],
+            duration:500,
+            delay:1000,
+            autoplay:true,
+            loop:false,
+            easing:'linear',
+
+        })    
+
        anime({
             targets:'.animation_wrapper',
             translateX:[100,200],

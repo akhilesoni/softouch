@@ -7,26 +7,36 @@
     text-align: center;
     margin: 20px 0;
 }
+.contact_button a{
+    color: white;
+    text-decoration: none;
 
+}
 
 .below_heading{
     text-align: center;
     font-size: 20px;
     margin: 10px 0 100px 0;
     font-weight: 500;
+    padding: 0 10px;
     color: rgb(51, 51, 51);
 }
 .contact_button{
-    background-color: rgb(231, 154, 12);
+    background-color: rgb(243, 147, 22);
     color: white;
     font-size: 20px;
     font-weight: 600;
     width: max-content;
     padding: 17px 40px;
+    transition: 0.3s    ;
     border-radius: 10px;
     margin: 30px auto 10px auto;
 }
 
+
+.contact_button:hover{
+    background-color: rgb(180, 123, 16);
+}
 
 .subject{
     height: 100%;
@@ -92,6 +102,13 @@
         padding: 0 20px;
     }
 
+    .landing_page{
+        margin-top: 130px;
+    }
+
+    .below_heading{
+        margin: 10px 0 50px 0;
+    }
     .subject{
         width: 80%;
         height: 90%;
