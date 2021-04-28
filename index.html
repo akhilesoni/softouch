@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Softouch: Websolutions</title>
-    <link rel="shortcut icon" type="image/png" href="css/images/companyslogo.png"/>
+    <link rel="shortcut icon" type="image/png" href="css/images/logofeather.png"/>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -31,37 +31,47 @@
 
 </head>
 <body>
-    <div id="navbar" class="navbar">
-        <div class="heading"><h3>Softouch</h2></div>
-        <div class="nav-menu">
-            <a id="home_option" href="#home">Home</a>
-            <a id="pricing_option" href="#pricing">Pricing</a>
-            <a id="about_option" href="">About</a>
-            <a id="contact_option" href="#contact">Contact</a>
+    <div class="header">
+        <div class="header_logo-wrapper">
+            <img class="header_logo" src="css/images/softouchlogopng.png" alt="">
         </div>
-        <div id="menu_button" class="menu_button">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-
+        <div class="header_menu">
+            <a class="option" href="#home">Home</a>
+            <a class="option" href="#pricing">Pricing</a>
+            <a class="option" href="">About</a>
+            <a class="option" href="#contact">Contact</a>
         </div>
-      
+        <div class="float_menu_button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </div>
     <div id="home" class="landing_page">
-        <img class="b1" src="css/images/b1.png" alt="">
-       
-        <div class="intro_text">
-            <p class="heading heading1 " >
-                we're a digital <br>
-                agency
-            </p>
-            <p class=" heading heading2" >
-                you think, we create 
-            </p>
-        </div>
-        <div class="intro_animation">
-            <img class="main_back" src="css/images/animation_background.png" alt="">
-            <img class="main_svg" src="css/images/main_svg.png" alt="">
+        <p class="heading" >
+            we're a digital     
+            agency
+        </p> 
+        <p class="below_heading">
+            Bring your businesses and ideas on the network 
+        </p> 
+        <p class="contact_button">
+            CONTACT US
+        </p>
+        <div class="animation">
+            <div class="subject">
+                <div class="subject_head">
+                    <p class="headline web">Website</p>
+                    <p class="headline app">Apps</p>
+                    <p class="headline graphic">Illustration</p>
+                </div>
+                <div class="rocket_wrapper">
+                    <div id="rocket" class="rocket">
+                        <img class="rocketimage" src="css/images/rocket.png" alt="">
+                        <img class="fire" src="css/images/fire.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="product_page">
@@ -252,7 +262,7 @@
     </div>
 
     <div id="splash" class="splash">
-        <img class="ball" id="ball" src="css/images/companyslogo.png" alt="">
+        <img class="ball" id="ball" src="css/images/logofeather.png" alt="">
     </div>
     <script src="javascript/main.js"></script>
     <script src="javascript/navbar.js"></script>
@@ -263,7 +273,8 @@
           
        anime({
             targets:'.ball',
-            rotateZ:'1turn',
+            rotateY:'1turn',
+            prespective:600,
             duration:1000,
             autoplay:true,
             loop:true,
@@ -271,7 +282,72 @@
 
         })
 
-             
+        anime({
+            targets:'.fire',
+            scale:1.1,
+            duration:100,
+            autoplay:true,
+            loop:true,
+            easing:'linear',
+
+        })
+
+            
+       anime({
+            targets:'.animation_wrapper',
+            translateX:[100,200],
+            opacity:0,
+            duration:1000,
+            delay:1000,
+            autoplay:true,
+            loop:true,
+            easing:'linear',
+
+        })
+
+        anime({
+            targets:'.sun,.sunshine',
+            translateX:100,
+            translateY:100,
+            duration:2000,
+            autoplay:true,
+            direction:'alternate',
+            loop:true,
+            easing:'linear',
+
+        })
+
+        anime({
+            targets:'.web',
+            opacity:[1,1,1,1,0,0,0,0,0,0,0,0],
+            duration:10000,
+            autoplay:true,
+            loop:true,
+            easing:'linear',
+
+        })
+
+        anime({
+            targets:'.app',
+            opacity:[0,0,0,0,0,0,0,0,1,1,1,1],
+            duration:10000,
+            autoplay:true,
+            loop:true,
+            easing:'linear',
+
+        })
+        anime({
+            targets:'.graphic',
+            opacity:[0,0,0,0,1,1,1,1,0,0,0,0],
+            duration:10000,
+            autoplay:true,
+            loop:true,
+            easing:'linear',
+
+        })
+
+
+       
        
         
         anime({
@@ -312,29 +388,7 @@
 
       
 
-        anime({
-            targets:'.heading1',
-            opacity:[0,0,0,0,0,1,1,1,1,1],
-            duration:10000,
-            autoplay:true,
-            loop:true,
-            direction:'alternate',
-            easing:'linear',
-
-        })
-      
-
-        anime({
-            targets:'.heading2',
-            opacity:[1,1,1,1,1,0,0,0,0,0],
-            duration:10000,
-            autoplay:true,
-            easing:'linear',
-            loop:true,
-            direction:'alternate',
-
-        })
-
+   
     
 
        

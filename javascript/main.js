@@ -6,13 +6,17 @@ var pricing_wrapper = document.getElementById('pricing_wrapper')
 var product_page_heading = document.getElementById('product_page_heading')
 var product_wrapper = document.getElementById('product_wrapper')
 
+var rocket = document.getElementById('rocket')
+
 var splash = document.getElementById('splash')
 setTimeout(()=>{
     splash.style.display = 'none'
 },1000)
 
 window.addEventListener('scroll',()=>{
-    baloon.style.top = window.scrollY+'px'
+    rocket.style.bottom =   window.scrollY/2+'px'
+
+
 
     var w = window.screen.width;
     var h = window.screen.height;

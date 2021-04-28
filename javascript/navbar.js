@@ -8,6 +8,8 @@ var bar1 = document.getElementById('bar1')
 var bar2 = document.getElementById('bar2')
 var bar3 = document.getElementById('bar3')
 
+var logo = document.getElementById('logo')
+
 var menu_button = document.getElementById('menu_button');
 var float_menu = document.getElementById('float_menu');
 var cover = document.getElementById('cover')
@@ -40,12 +42,5 @@ float_menu.addEventListener('click',()=>{
 
 
 window.addEventListener('scroll',()=>{
-    if(window.scrollY>50){
-        navbar.style.backgroundColor = 'white'
-      
-
-    }else{
-        navbar.style.backgroundColor = 'transparent'
-   
-    }
+  
 })
